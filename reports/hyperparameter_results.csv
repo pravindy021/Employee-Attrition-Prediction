@@ -1,0 +1,17 @@
+model,parameter,value
+logistic_regression,classifier__C,0.6071989493441299
+logistic_regression,classifier__class_weight,None
+gradient_boosting,classifier__class_weight,balanced
+gradient_boosting,classifier__l2_regularization,0.8083973481164611
+gradient_boosting,classifier__learning_rate,0.07569206537600559
+gradient_boosting,classifier__max_iter,132
+gradient_boosting,classifier__max_leaf_nodes,16
+xgboost,classifier__colsample_bytree,0.9430611923241643
+xgboost,classifier__learning_rate,0.053845881784100685
+xgboost,classifier__max_depth,5
+xgboost,classifier__min_child_weight,3
+xgboost,classifier__n_estimators,230
+xgboost,classifier__reg_alpha,0.71134195274865
+xgboost,classifier__reg_lambda,2.0803510810624113
+xgboost,classifier__scale_pos_weight,1.0
+xgboost,classifier__subsample,0.7685111629335226

@@ -1,0 +1,15 @@
+{
+  "row_count": 1470,
+  "column_count": 31,
+  "target_column": "Attrition",
+  "duplicate_rows": 0,
+  "missing_cells": 0,
+  "missing_by_column": {},
+  "target_counts": {
+    "0": 1233,
+    "1": 237
+  },
+  "invalid_target_values": [],
+  "issues": [],
+  "is_valid": true
+}

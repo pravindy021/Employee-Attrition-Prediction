@@ -1,0 +1,28 @@
+# Python
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Secrets
+.env
+.env.*
+!.env.example
+secrets/
+*.key
+*.pem
+*.log
+.DS_Store
+
+# Private employee data and model artifacts
+data/
+models/
+
+# Individual-level explainability outputs
+reports/explainability/individual_explanations.*
+reports/DEMOGRAPHIC_METRICS.csv
+
+# Streamlit secrets
+.streamlit/secrets.toml

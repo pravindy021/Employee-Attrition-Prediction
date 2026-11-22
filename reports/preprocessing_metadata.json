@@ -1,0 +1,80 @@
+{
+  "random_state": 42,
+  "test_size": 0.2,
+  "target_column": "Attrition",
+  "source_row_count": 1470,
+  "train_row_count": 1176,
+  "test_row_count": 294,
+  "train_target_distribution": {
+    "0": 986,
+    "1": 190
+  },
+  "test_target_distribution": {
+    "0": 247,
+    "1": 47
+  },
+  "numeric_columns": [
+    "DailyRate",
+    "DistanceFromHome",
+    "Education",
+    "EnvironmentSatisfaction",
+    "HourlyRate",
+    "JobInvolvement",
+    "JobLevel",
+    "JobSatisfaction",
+    "MonthlyIncome",
+    "MonthlyRate",
+    "NumCompaniesWorked",
+    "PercentSalaryHike",
+    "PerformanceRating",
+    "RelationshipSatisfaction",
+    "StockOptionLevel",
+    "TotalWorkingYears",
+    "TrainingTimesLastYear",
+    "WorkLifeBalance",
+    "YearsAtCompany",
+    "YearsInCurrentRole",
+    "YearsSinceLastPromotion",
+    "YearsWithCurrManager",
+    "IncomePerTotalWorkingYear",
+    "PromotionDelayRatio",
+    "RoleTenureRatio",
+    "OvertimeFlag",
+    "EngagementComposite"
+  ],
+  "categorical_columns": [
+    "BusinessTravel",
+    "Department",
+    "EducationField",
+    "JobRole",
+    "OverTime"
+  ],
+  "excluded_columns": [
+    "Age",
+    "Attrition",
+    "Gender",
+    "MaritalStatus"
+  ],
+  "identifier_columns": [],
+  "constant_columns": [],
+  "sensitive_audit_columns": [
+    "Age",
+    "Gender",
+    "MaritalStatus"
+  ],
+  "engineered_features": [
+    "IncomePerTotalWorkingYear",
+    "PromotionDelayRatio",
+    "RoleTenureRatio",
+    "OvertimeFlag",
+    "EngagementComposite"
+  ],
+  "class_weight_strategy": "balanced",
+  "smote_applied": false,
+  "preprocessing_artifacts": [
+    "models\\preprocessing_pipeline.joblib",
+    "data\\processed\\phase3_split.joblib",
+    "data\\processed\\fairness_audit_features.joblib"
+  ],
+  "train_only_fitted": true
+}

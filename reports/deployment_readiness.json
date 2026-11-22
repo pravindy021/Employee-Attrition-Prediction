@@ -1,0 +1,50 @@
+{
+  "deployment_status": "PREPARATION_COMPLETE",
+  "missing_required_files": [],
+  "python_runtime": "python-3.12.10",
+  "streamlit_entrypoint": "app.py",
+  "repository_size_excluding_venv_bytes": 18864839,
+  "largest_files": [
+    {
+      "relative_path": "models\\phase4\\random_forest.joblib",
+      "size_bytes": 6336539
+    },
+    {
+      "relative_path": ".git\\objects\\15\\eb1fb7df5ba5f2943ae8a7d50a4b1aa5a80457",
+      "size_bytes": 1593784
+    },
+    {
+      "relative_path": "data\\processed\\phase3_split.joblib",
+      "size_bytes": 648275
+    },
+    {
+      "relative_path": "models\\phase4\\xgboost.joblib",
+      "size_bytes": 592749
+    },
+    {
+      "relative_path": "models\\phase4\\gradient_boosting.joblib",
+      "size_bytes": 567970
+    },
+    {
+      "relative_path": "models\\phase5\\xgboost_tuned.joblib",
+      "size_bytes": 372981
+    },
+    {
+      "relative_path": "models\\phase5\\gradient_boosting_tuned.joblib",
+      "size_bytes": 281138
+    },
+    {
+      "relative_path": "reports\\figures\\15_experience_income_attrition.png",
+      "size_bytes": 251677
+    },
+    {
+      "relative_path": ".git\\objects\\99\\be12b70fb12ba7b7959d7f199225425fe01d6d",
+      "size_bytes": 245318
+    },
+    {
+      "relative_path": ".git\\objects\\0d\\dc6ca8f744c5349183e41640ff4e11f98d11ea",
+      "size_bytes": 239509
+    }
+  ],
+  "public_url": null
+}

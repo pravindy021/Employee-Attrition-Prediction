@@ -1,0 +1,77 @@
+{
+  "all_required_artifacts_present": true,
+  "artifacts": [
+    {
+      "relative_path": "data/Palo Alto Networks.csv",
+      "exists": true,
+      "size_bytes": 209376,
+      "sha256": "389735e8909136a51fe487040df8f8662c2d222bb3505a83745c5a8c5bf20c7c"
+    },
+    {
+      "relative_path": "data/raw/Palo Alto Networks.csv",
+      "exists": true,
+      "size_bytes": 209376,
+      "sha256": "389735e8909136a51fe487040df8f8662c2d222bb3505a83745c5a8c5bf20c7c"
+    },
+    {
+      "relative_path": "reports/eda_report.md",
+      "exists": true,
+      "size_bytes": 7011,
+      "sha256": "912e9b0387dd9ff84c529286df3ac23a370d7329403b61c3c810667cc7105f20"
+    },
+    {
+      "relative_path": "models/preprocessing_pipeline.joblib",
+      "exists": true,
+      "size_bytes": 7191,
+      "sha256": "9ed1ff6731a0c93df2cdcbd57f27a6e985f1c56910b1dc2ce8d41eac3d9c0a8f"
+    },
+    {
+      "relative_path": "data/processed/phase3_split.joblib",
+      "exists": true,
+      "size_bytes": 648275,
+      "sha256": "8fc02ed947eb555ed78e2a5f16eb308c1ff0dbdcfce980fa5212d012419e6489"
+    },
+    {
+      "relative_path": "reports/model_comparison.csv",
+      "exists": true,
+      "size_bytes": 1069,
+      "sha256": "e924a12739e5e358800c6a42adb6f1c82a08846cfc0e4c414d457ee6f3722348"
+    },
+    {
+      "relative_path": "reports/tuned_model_comparison.csv",
+      "exists": true,
+      "size_bytes": 1980,
+      "sha256": "12f6a046a8e16a18b7ef729ff1bfa149fa960b05b8c2c353003687e734b3d39b"
+    },
+    {
+      "relative_path": "models/phase6_attrition_risk_model.joblib",
+      "exists": true,
+      "size_bytes": 37200,
+      "sha256": "1d06dd7d6e158532385514da808f0a68466203cefa99f79df3c7d7a26fd2e6df"
+    },
+    {
+      "relative_path": "data/processed/phase6_risk_scoring_config.joblib",
+      "exists": true,
+      "size_bytes": 37310,
+      "sha256": "9d06625007519f0db057be26f01c9cfdc132f6b948b9ff1622ff4717ac8ef831"
+    },
+    {
+      "relative_path": "reports/explainability/shap_global_importance.csv",
+      "exists": true,
+      "size_bytes": 4197,
+      "sha256": "8623ee44b5b6e29f9ab150f14ddaa6426ea90aa90f9785e92145e518cc5aef1f"
+    },
+    {
+      "relative_path": "reports/DEMOGRAPHIC_METRICS.csv",
+      "exists": true,
+      "size_bytes": 2239,
+      "sha256": "3716199c15a0f8dcb18c2895d30e93751341deea707dab98894057d6ca241392"
+    },
+    {
+      "relative_path": "app.py",
+      "exists": true,
+      "size_bytes": 24098,
+      "sha256": "e30c7437bdcf9087b1e95abc4a9baaad8704e848ea7eaa70737e3e64d1ad8a65"
+    }
+  ]
+}

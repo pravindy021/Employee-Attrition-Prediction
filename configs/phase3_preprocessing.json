@@ -1,0 +1,17 @@
+{
+  "random_state": 42,
+  "test_size": 0.20,
+  "target_column": "Attrition",
+  "numerical_imputation": "median",
+  "categorical_imputation": "most_frequent",
+  "numerical_scaling": "standard",
+  "categorical_encoding": "one_hot",
+  "unknown_category": "ignore",
+  "class_weight_strategy": "balanced",
+  "smote_applied": false,
+  "sensitive_audit_columns": [
+    "Age",
+    "Gender",
+    "MaritalStatus"
+  ]
+}

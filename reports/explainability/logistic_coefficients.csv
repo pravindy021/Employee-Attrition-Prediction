@@ -1,0 +1,51 @@
+feature,coefficient
+DailyRate,-0.17766655426048017
+DistanceFromHome,0.3734411027878684
+Education,-0.02169816485237538
+EnvironmentSatisfaction,-0.269580279256687
+HourlyRate,-0.041764579331120606
+JobInvolvement,-0.2789331497090074
+JobLevel,0.05135081323724828
+JobSatisfaction,-0.1899271639806032
+MonthlyIncome,-0.35721254146865583
+MonthlyRate,-0.004832954303184021
+NumCompaniesWorked,0.4688870379301925
+PercentSalaryHike,-0.14618558796738182
+PerformanceRating,0.06022317544875109
+RelationshipSatisfaction,-0.08102807548797963
+StockOptionLevel,-0.5195867760854166
+TotalWorkingYears,-0.5423973123082417
+TrainingTimesLastYear,-0.1675649961531884
+WorkLifeBalance,-0.17062863682220533
+YearsAtCompany,-0.16725611689847814
+YearsInCurrentRole,0.4585208878357921
+YearsSinceLastPromotion,0.4062887163829299
+YearsWithCurrManager,-0.24488016423492337
+IncomePerTotalWorkingYear,0.29235235397125103
+PromotionDelayRatio,0.04516941572842549
+RoleTenureRatio,-0.6207183442207155
+OvertimeFlag,0.46319592298897716
+EngagementComposite,-0.4215348465178741
+BusinessTravel Non-Travel,-1.0827607272668383
+BusinessTravel Travel Frequently,0.5418167326818303
+BusinessTravel Travel Rarely,-0.36137168788057833
+Department Human Resources,-0.1653209302911577
+Department Research & Development,-0.7173694643516882
+Department Sales,-0.019625287822810745
+EducationField Human Resources,0.3518760982414706
+EducationField Life Sciences,-0.3047013320072985
+EducationField Marketing,-0.09607441290129554
+EducationField Medical,-0.38459053718508185
+EducationField Other,-0.7655523356620478
+EducationField Technical Degree,0.296726837048628
+JobRole Healthcare Representative,-0.5794285727711501
+JobRole Human Resources,-0.031978393287937903
+JobRole Laboratory Technician,0.9181386943117944
+JobRole Manager,-0.17905454854648278
+JobRole Manufacturing Director,-0.4362157848001484
+JobRole Research Director,-0.8415658252366984
+JobRole Research Scientist,-0.261187197582142
+JobRole Sales Executive,-0.17979320391805123
+JobRole Sales Representative,0.6887691493651834
+OverTime No,-0.8514327729239428
+OverTime Yes,-0.05088290954169535

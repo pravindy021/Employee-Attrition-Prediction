@@ -1,0 +1,25 @@
+{
+  "phase": 8,
+  "test_row_count": 294,
+  "threshold": 0.21000000000000002,
+  "model_artifact": "models/phase6_attrition_risk_model.joblib",
+  "sensitive_fields_audit_only": [
+    "Age",
+    "Gender",
+    "MaritalStatus"
+  ],
+  "operational_sensitive_fields_excluded": true,
+  "age_bands": [
+    "18-30",
+    "31-40",
+    "41-50",
+    "51+",
+    "Missing"
+  ],
+  "audit_scope": [
+    "AgeGroup",
+    "Gender",
+    "MaritalStatus"
+  ],
+  "interpretation": "Subgroup performance differences are descriptive; they do not establish discrimination."
+}

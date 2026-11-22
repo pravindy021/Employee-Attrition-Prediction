@@ -1,0 +1,25 @@
+
+# Data Analysis
+numpy==2.5.5
+pandas==3.1.1
+scipy==1.18.1
+
+# Data Visualization
+matplotlib==3.11.2
+seaborn==0.13.2
+plotly==7.1.0
+
+# Machine Learning
+scikit-learn==1.9.1
+xgboost==3.4.1
+
+# Explainable AI
+shap==0.54.1
+
+# Dashboard
+streamlit==1.67.0
+
+# Development
+
+# Model Utilities
+joblib==1.6.0

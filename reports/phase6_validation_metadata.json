@@ -1,0 +1,46 @@
+{
+  "phase": 6,
+  "random_state": 42,
+  "train_row_count": 1176,
+  "test_row_count": 294,
+  "test_set_evaluated": true,
+  "candidate_selection_basis": "Phase 5 training PR-AUC",
+  "candidate_test_models": [
+    "logistic_regression",
+    "gradient_boosting",
+    "xgboost"
+  ],
+  "selected_final_model": "logistic_regression",
+  "selected_calibration_method": "isotonic",
+  "selected_threshold": 0.21000000000000002,
+  "minimum_training_recall_objective": 0.65,
+  "risk_categories": {
+    "low": "probability < 0.30",
+    "medium": "0.30 <= probability <= 0.60",
+    "high": "probability > 0.60"
+  },
+  "held_out_metrics": {
+    "accuracy": 0.8469387755102041,
+    "precision": 0.5192307692307693,
+    "recall": 0.574468085106383,
+    "f1": 0.5454545454545454,
+    "roc_auc": 0.803514514600741,
+    "pr_auc": 0.5653826701655666,
+    "balanced_accuracy": 0.7366267551037988,
+    "specificity": 0.8987854251012146,
+    "true_negative": 222,
+    "false_positive": 25,
+    "false_negative": 20,
+    "true_positive": 27,
+    "brier_score": 0.10149041694305329,
+    "threshold": 0.21000000000000002
+  },
+  "brier_score_raw_test": 0.10143117385521457,
+  "brier_score_calibrated_test": 0.10149041694305329,
+  "sensitive_columns_excluded": [
+    "Age",
+    "Gender",
+    "MaritalStatus"
+  ],
+  "interpretation": "Historical attrition propensity; not a 30/60/90-day resignation forecast."
+}

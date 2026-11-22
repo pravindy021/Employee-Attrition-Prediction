@@ -1,0 +1,21 @@
+{
+  "phase": 7,
+  "shap_explainer": "shap.LinearExplainer",
+  "explained_model": "Underlying tuned logistic regression",
+  "calibration_model": "Isotonic calibrated logistic regression",
+  "calibration_explanation": "SHAP explains the underlying logistic score; it does not exactly explain isotonic calibrated probability.",
+  "background_size": 100,
+  "held_out_explanation_rows": 294,
+  "transformed_feature_count": 50,
+  "shap_output_shape": [
+    294,
+    50
+  ],
+  "sensitive_features_excluded": [
+    "Age",
+    "Gender",
+    "MaritalStatus"
+  ],
+  "individual_count": 5,
+  "risk_category_method": "0.30 / 0.60 thresholds"
+}

@@ -1,0 +1,32 @@
+column,observed_dtype,role,missing_count,unique_count,description
+Age,int64,numerical,0,43,Employee age in years.
+Attrition,int64,target,0,2,"Target indicator; 1 means attrition, 0 means no attrition."
+BusinessTravel,str,categorical,0,3,Frequency of work-related travel.
+DailyRate,int64,numerical,0,886,Daily compensation rate.
+Department,str,categorical,0,3,Employee department.
+DistanceFromHome,int64,numerical,0,29,Distance from home to work.
+Education,int64,numerical,0,5,Education level encoded numerically.
+EducationField,str,categorical,0,6,Field of education.
+EnvironmentSatisfaction,int64,numerical,0,4,Environment satisfaction score.
+Gender,str,categorical,0,2,Reported gender category.
+HourlyRate,int64,numerical,0,71,Hourly compensation rate.
+JobInvolvement,int64,numerical,0,4,Job involvement level.
+JobLevel,int64,numerical,0,5,Job level in the organizational hierarchy.
+JobRole,str,categorical,0,9,Employee job role.
+JobSatisfaction,int64,numerical,0,4,Job satisfaction score.
+MaritalStatus,str,categorical,0,3,Marital status.
+MonthlyIncome,int64,numerical,0,1349,Monthly compensation.
+MonthlyRate,int64,numerical,0,1427,Monthly rate.
+NumCompaniesWorked,int64,numerical,0,10,Number of previous companies worked for.
+OverTime,str,categorical,0,2,Whether the employee works overtime.
+PercentSalaryHike,int64,numerical,0,15,Salary increase percentage.
+PerformanceRating,int64,numerical,0,2,Performance rating.
+RelationshipSatisfaction,int64,numerical,0,4,Relationship satisfaction score.
+StockOptionLevel,int64,numerical,0,4,Stock option eligibility level.
+TotalWorkingYears,int64,numerical,0,40,Total years of work experience.
+TrainingTimesLastYear,int64,numerical,0,7,Training sessions attended last year.
+WorkLifeBalance,int64,numerical,0,4,Work-life balance score.
+YearsAtCompany,int64,numerical,0,37,Years employed by the company.
+YearsInCurrentRole,int64,numerical,0,19,Years in the current role.
+YearsSinceLastPromotion,int64,numerical,0,16,Years since the last promotion.
+YearsWithCurrManager,int64,numerical,0,18,Years with the current manager.

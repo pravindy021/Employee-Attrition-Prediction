@@ -1,0 +1,13 @@
+{
+  "model_load_seconds": 0.048907,
+  "first_prediction_seconds": 0.308115,
+  "20_repeated_predictions_seconds": 4.698003,
+  "average_prediction_seconds": 0.2349,
+  "probability_reproducible": true,
+  "sensitive_features_excluded": [
+    "Age",
+    "Gender",
+    "MaritalStatus"
+  ],
+  "sample_probability": 0.8714285714285716
+}

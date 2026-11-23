@@ -26,3 +26,6 @@ reports/DEMOGRAPHIC_METRICS.csv
 
 # Streamlit secrets
 .streamlit/secrets.toml
+
+# Individual-level explainability images
+reports/figures/phase7/phase7_waterfall_record_*.png
